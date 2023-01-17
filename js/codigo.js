@@ -9,18 +9,20 @@ let cont1 = 1;
 let cont2 = 1;
 let cont3 = 1;
 
-image1.src = "../mtto/images/cnc"+cont1+".jpg";
-image2.src = "../images/waterjet"+cont2+".jpg";
-image3.src = "../images/tarjeta"+cont3+".jpg";
+let textdirimg = "../mtto/images/";
+
+image1.src = textdirimg+"cnc"+cont1+".jpg";
+image2.src = textdirimg+"waterjet"+cont2+".jpg";
+image3.src = textdirimg+"tarjeta"+cont3+".jpg";
 
 cont1++;
 cont2++;
 cont3++;
 
 setInterval(function(){
-	image1.src = "../mtto/images/cnc"+cont1+".jpg";
-	image2.src = "../images/waterjet"+cont2+".jpg";
-	image3.src = "../images/tarjeta"+cont3+".jpg";
+	image1.src = textdirimg+"cnc"+cont1+".jpg";
+	image2.src = textdirimg+"waterjet"+cont2+".jpg";
+	image3.src = textdirimg+"tarjeta"+cont3+".jpg";
 
 
 	cont1++;
