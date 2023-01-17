@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link  rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" type="text/css">
+        <link  rel="stylesheet" href="css/index.css" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet"> 
         <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/NewLogo.ico') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="images/NewLogo.ico">
         <title>Mantenimientos y Controles Industriales JMO</title>
 
         
@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <!--<a class="navbar-brand font-weight-bold link-color" href="{{ url_for('JMO_info_page.index') }}">Mantenimientos y Controles Industriales JMO</a>-->
-                <div class="logo"><img id="logo" src="../static/images/NewLogoFinPort.png" alt="Mantenimiento"></div>
+                <div class="logo"><img id="logo" src="images/NewLogoFinPort.png" alt="Mantenimiento"></div>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" 
                 style="border-bottom-color: white; border-block-color: white; border-color: white; outline-color: white; color-adjust: white; caret-color: white;">
@@ -26,16 +26,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mr-3">
-                            <a class="nav-link link-color" href="{{ url_for('JMO_info_page.index') }}">Página Principal<span class="sr-only">(current)</span></a>
+                            <a class="nav-link link-color" href="/index">Página Principal<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item  mr-3">
-                            <a class="nav-link link-color" href="{{ url_for('JMO_info_page.contactus') }}">Contáctenos</a>
+                            <a class="nav-link link-color" href="/contactus">Contáctenos</a>
                         </li>
                         <li class="nav-item  mr-3">
-                            <a class="nav-link link-color" href="{{ url_for('JMO_info_page.works') }}">Nuestro trabajo</a>
+                            <a class="nav-link link-color" href="/works">Nuestro trabajo</a>
                         </li>
                         <li class="nav-item  mr-3">
-                            <a class="nav-link link-color" href="{{ url_for('JMO_info_page.certificates') }}">Certificados</a>
+                            <a class="nav-link link-color" href="/certificates">Certificados</a>
                         </li>
                     </ul>
                 </div>
@@ -92,7 +92,7 @@
                         lo asesoramos en las mejores decisiones sobre su maquinaria industrial. Actualizamos su maquinaria 
                         y brindamos soporte oportuno para que su negocio no detenga su producción. Nuestro trabajo esta calificado
                         como se puede ver en nuestra sección de 
-                        <a href="{{ url_for('JMO_info_page.certificates') }}"><u>certificados</u></a>.
+                        <a href="/certificates.html"><u>certificados</u></a>.
                     </p>
                     <br>
                 </div>
